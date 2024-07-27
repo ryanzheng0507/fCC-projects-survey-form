@@ -7,11 +7,21 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgb(126, 93, 51);
+  color: white;
+  font-family: sans-serif;
 }
 
 #survey-form {
-  border: 1px solid black;
-  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: rgb(112, 47, 47);
+  border: none;
+}
+
+.radio-control {
+  margin-bottom: none;
 }
 
 .form-control {
@@ -20,12 +30,24 @@ body {
   margin-bottom: 15px;
 }
 
+.radio-control {
+  display: block;
+}
+
 button {
   width: 100%;
   margin-top: 5px;
+  padding: 10px;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
 }
 
 p {
-  margin-top: 0;
+  margin-top: 15px;
   margin-bottom: 5px;
+}
+
+textarea {
+  height: 7em;
 }
